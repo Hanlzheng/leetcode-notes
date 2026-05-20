@@ -10,9 +10,9 @@
 - range 多写了 -1，导致最后一个元素轮不到
 
 ## 暴力解
-\`\`\`python
+```python
 for i in range(len(nums)):
     for j in range(i + 1, len(nums)):
         if nums[i] + nums[j] == target:
             return [i, j]
-\`\`\`
+```

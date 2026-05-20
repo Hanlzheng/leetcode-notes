@@ -15,3 +15,6 @@
 ## 值 vs 下标
 - 只关心元素是什么 → `for x in nums:`（x 是值）
 - 需要知道位置（返回下标、比较位置、nums[j] 索引）→ `for i in range(len(nums)):`（i 是下标）
+
+## 三元表达式
+- 值A if condition else 值B
